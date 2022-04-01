@@ -2,9 +2,9 @@
 
 ![version](https://img.shields.io/badge/version-1.0.1-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/laravel-frontend-presets/white-dashboard.svg)](https://github.com/laravel-frontend-presets/white-dashboard/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/laravel-frontend-presets/white-dashboard.svg)](https://github.com/laravel-frontend-presets/white-dashboard/issues?q=is%3Aissue+is%3Aclosed)
 
-[<img src="https://s3.amazonaws.com/creativetim_bucket/products/215/original/opt_wd_laravel_thumbnail.jpg?1567087179" width="100%" />](https://www.creative-tim.com/live/white-dashboard-laravel?ref=wdl-readme)
+[<img src="https://s3.amazonaws.com/creativetim_bucket/products/215/original/opt_wd_laravel_thumbnail.jpg" width="100%" />](https://www.creative-tim.com/live/white-dashboard-laravel) 
 
-Speed up your web development with the Bootstrap 4 Admin Dashboard built for Laravel Framework 8.x and up.
+Speed up your web development with the Bootstrap 4 Admin Dashboard built for Laravel Framework 9.x and up.
 
 ## Note
 
@@ -20,7 +20,7 @@ If you don't already have an Apache local environment with PHP and MySQL, use on
 
 Also, you will need to install Composer: https://getcomposer.org/doc/00-intro.md
 
-And Laravel: https://laravel.com/docs/8.x/installation
+And Laravel: https://laravel.com/docs/9.x/installation
 
 ## Installation
 
@@ -30,7 +30,7 @@ After initializing a fresh instance of Laravel (and making all the necessary con
 
 1. `Cd` to your Laravel app  
 2. Type in your terminal: `composer require laravel/ui` and `php artisan ui vue --auth`
-3. Install this preset via `composer require laravel-frontend-presets/white-dashboard`. No need to register the service provider. Laravel 5.5 & up can auto detect the package.
+3. Install this preset via `composer require laravel-frontend-presets/white-dashboard`. No need to register the service provider. Laravel 9.x & up can auto detect the package.
 4. Run `php artisan ui white` command to install the Argon preset. This will install all the necessary assets and also the custom auth views, it will also add the auth route in `routes/web.php`
 (NOTE: If you run this command several times, be sure to clean up the duplicate Auth entries in routes/web.php)
 5. In your terminal run `composer dump-autoload`
